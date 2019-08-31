@@ -1,0 +1,9 @@
+#!/usr/bin/env perl
+#
+# slim calculator
+
+use strict;
+use warnings;
+
+my $result = eval $ARGV[0];
+print "$result";
