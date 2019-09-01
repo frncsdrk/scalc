@@ -5,5 +5,11 @@
 use strict;
 use warnings;
 
+my $num_args = $#ARGV + 1;
+if ($num_args != 1) {
+    print "\nUsage: scalc <expression>\n";
+    exit;
+}
+
 my $result = eval $ARGV[0];
 print "$result";
