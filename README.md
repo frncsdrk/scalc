@@ -1,6 +1,6 @@
 # scalc
 
-**s**lim **calc**ulator
+**s**lim **calc**ulator - pure perl magic
 
 ## usage
 

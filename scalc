@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 #
-# slim calculator
+# slim calculator - pure perl magic
 
 use strict;
 use warnings;
